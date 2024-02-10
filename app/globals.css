@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.sectionPaddings {
+    @apply px-mobile sm:px-tablet md:px-desktop
+}

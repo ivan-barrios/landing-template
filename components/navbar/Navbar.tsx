@@ -6,7 +6,7 @@ import DesktopMenu from "./DesktopMenu";
 const Navbar = () => {
   return (
     <nav className="h-[80px] bg-white w-full flex justify-center">
-      <div className="w-full max-w-maxSectionWidth flex justify-between items-center px-mobile sm:px-tablet md:px-desktop">
+      <div className="w-full max-w-maxSectionWidth flex justify-between items-center sectionPaddings">
         <div>LOGO</div>
         {/* <Image src={} alt="Logo" /> */}
         <DesktopMenu links={links} />
